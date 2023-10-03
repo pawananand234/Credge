@@ -811,7 +811,7 @@ input:focus {
 
 @media (min-width: 1280px) {
   .section-padding {
-    padding-top: 180px;
+    padding-top: 130px;
     padding-bottom: 130px;
   }
 }
@@ -6595,6 +6595,51 @@ ul ul>li.menu-item-has-children:hover>a:after {
 
 }
 
+.benifits_program_research img {
+height: 234px;
+width: 234px;
+}
+.benifits_program_research > div p{
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+  .benifits_program_research > div {
+  border: 1px solid #EFF2F9;
+  gap: 20px;
+  display: flex;
+  border: 1px solid #EFF2F9;
+  border-radius: 20px;
+  box-shadow: 10px 15px 14px 0px #47637D1A;
+  box-shadow: 3px 4px 5px 0px #47637D1C;
+  max-width: 620px;
+  width: 100%;
+  padding: 5px;
+ 
+}
+.program_acheiver_arc p{
+ 
+
+}
+.program_acheiver li{
+  list-style: disc;
+}
+  .program_acheiver{
+  margin: auto;
+  max-width: 400px;
+  width: 100%;
+  padding-left: 20px;
+}
+  .benifits_program_research {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
 .benifits_program {
   display: flex;
   flex-wrap: wrap;
@@ -6915,6 +6960,20 @@ ul ul>li.menu-item-has-children:hover>a:after {
 .noneblock{
   color: #0C1327  ;
 }
+.section_padd_top{
+  padding-top: 100px;
+}
+.research_scolar{
+  color: #000;
+}
+
+.research_image img{
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 @media (max-width:1220px) {
 
   .roadmap_1::after,
@@ -6981,7 +7040,9 @@ display: none;
   top: 70px;
   background-color: transparent;
   transform: translate(-50%, -50%);
-  left: 58%;
+  left: 55%;
+  max-width: 800px;
+  width: 100%;
 }
 .main_topimgbannner{
   background: url("../images/all-img/hero-img.png");
@@ -6995,7 +7056,14 @@ display: none;
 .margin_item{
   padding-top: 50px;
 }
+@media (max-width:1023px) {
+  .tabsec_item .course-tab li{
+    margin-bottom: 20px;
+    }
+}
+
 @media (max-width:991px) {
+ 
   .dis_startup {
     display: block;
     max-width: 300px;
@@ -7111,4 +7179,134 @@ overflow: hidden;
     height: 40px;
 
   }
+}
+.tutor{
+  max-width: 980px;
+  margin: auto;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 150px;
+}
+.tutoredge_card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;  
+}
+
+.tutoredge_card > div {
+  border: 1px solid #EFF2F9;
+  border: 1px solid #EFF2F9;
+  border-radius: 20px;
+  box-shadow: 10px 15px 14px 0px #47637D1A;
+  box-shadow: 3px 4px 5px 0px #47637D1C;
+  max-width: 290px;
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.tutoredge_card p{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.tutoredge_card img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  margin: auto;
+}
+.round_img p{
+
+  margin: 20px 10px 40px 10px;
+}
+  .round_img img{
+  border-radius: 100px;
+  margin-top: 20px;
+}
+.tabsec_item .course-tab .active {
+  background-color: transparent!important;
+  border-radius: 30px;
+  overflow: hidden;
+
+
+}
+.tabsec_item .course-tab .active a{
+
+  background-color: red!important;
+  overflow: hidden;
+
+}
+
+
+.tabsec_item .course-tab li a{
+  border-radius: 30px;
+  background-color: rgb(172, 168, 168)!important;
+  color: #fff;
+}
+
+.course-tab{
+background-color: transparent;
+gap: 20px;
+}
+.course-tab li{
+  flex: none;
+  border: 0;
+}
+.tabsec_item .single-course-details{
+  max-width: 1300px;
+  width: 100%;
+  overflow-x: auto;
+}
+.card_subjects .card_subjects_inner{
+padding: 10px 10px 30px;
+border-radius: 8px;
+border: 1px solid grey;
+}
+.card_subjects .card_subjects_inner p{
+font-size: 34px;
+color: #000;
+text-align: center;
+margin-top: 15px;
+}
+  .card_subjects .card_subjects_inner img{
+height: 250px;
+width: 250px;border-radius: 10px;
+object-fit: cover;
+}
+
+  .card_subjects{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.arrow_withicon__usertetxt h4{
+ font-size: 20px;
+ color: #000;
+ margin-top: 20px ;
+ text-align: left;
+ line-height: 30px;
+
+}
+.arrow_withicon .arow{
+  height: 30px;
+  margin-top: 50px;
+  width: 30px;
+}
+  .arrow_withicon{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  max-width: 240px;
+  justify-content: center;
+  width: 100%;
+}
+.main_card_text{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center ;
+
 }
